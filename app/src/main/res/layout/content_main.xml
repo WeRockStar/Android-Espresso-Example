@@ -13,7 +13,23 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/textEspresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:text="Hello Espresso!" />
+
+    <TextView
+        android:id="@+id/textEspressoUITest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textEspresso"
+        android:text="Hello Espresso UI Testing!" />
+
 </RelativeLayout>
