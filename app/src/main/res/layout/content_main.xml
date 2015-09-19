@@ -32,4 +32,12 @@
         android:layout_below="@id/textEspresso"
         android:text="Hello Espresso UI Testing!" />
 
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textEspressoUITest"
+        android:layout_marginTop="10dp"
+        android:text="Click" />
+
 </RelativeLayout>
